@@ -13,7 +13,7 @@ function Navbar() {
   };
 
   return (
-    <div className='navbar backdrop-blur-md justify-around h-[75px] px-28 fixed z-40 '>
+    <div className='navbar backdrop-blur-md justify-around h-[75px] px-3 md:px-5 lg:px-28 fixed z-40 '>
       <div className="navbar-start">
         <a className="h-8 w-8 lg:h-[74px] lg:w-[74px] text-white">
           <img src="../Images/logo.png" alt="" />
@@ -51,17 +51,7 @@ function Navbar() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </div>
-          <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a>Item 1</a></li>
-            <li>
-              <a>Parent</a>
-              <ul className="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </li>
-            <li><a>Item 3</a></li>
-          </ul>
+          
         </div>
       </div>
     </div>

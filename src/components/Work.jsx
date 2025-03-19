@@ -8,16 +8,16 @@ import { FiArrowRight } from "react-icons/fi";
 function Work() {
   return (
     <div className=' max-w-7xl mx-auto'>
-      <div className=' mt-14 px-6'>
+      <div className=' mt-14 px-2 md:px-5 lg:px-6'>
       <div className=' text-center'>
 
-        <h1 className=' text-3xl md:text-5xl text-white'>Secure & Private</h1>
+        <h1 className=' text-3xl md:text-5xl pt-0 md:pt-16 lg:pt-0 text-white'>Secure & Private</h1>
         <p className=' text-[#A5A3A8] text-[12px] md:text-2xl mt-2.5'>24/7 Dedicated Support Team</p>
       </div>
       <div className=' grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-20 '>
 
 
-        <div className='  h-[330px] border-t border-l border-r border-[#2e2f4b] text-center bg-[#27283F] backdrop-blur-sm rounded-[4px] px-3 md:px-10 my-7  lg:my-0 '>
+        <div className='  h-[330px] border-t border-l border-r border-[#2e2f4b] text-center bg-[#27283F] backdrop-blur-sm rounded-[4px] px-3 md:px-10   lg:my-0 '>
           <img src="../Images/icon.png" className=' -mt-12 md:-mt-[16%] lg:-mt-[14%] h-24 w-24 mx-auto' alt="" />
 
           <div className='  items-center lg:w-80 h-40 md:my-0 lg:my-10'>

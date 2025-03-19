@@ -3,7 +3,7 @@ import React from 'react'
 function Services() {
     return (
         <div className=' max-w-7xl mx-auto'>
-            <div className=' grid md:grid-cols-2 -mt-0 md:-mt-30 lg:mt-10 h-full md:h-[515px]  items-center px-3  md:px-6 gap-20 md:bg-[url(../../public/Svg/Looper1.svg)]  bg-cover'>
+            <div className=' grid md:grid-cols-2 -mt-0 md:-mt-30 lg:mt-10 h-full md:h-[515px]  items-center px-2 md:px-5  lg:px-6 gap-20 md:bg-[url(../../public/Svg/Looper1.svg)]  bg-cover'>
 
                 <div className=' h-full md:h-[370px] pr-3 '>
                     <h1 className=' text-xl md:text-5xl text-white leading-8 md:leading-16 font-medium text-center md:text-left'>Trade with confidence with <span className=' bg-gradient-to-t from-[#522580] to-[#AD4769] text-transparent bg-clip-text'>Our platform</span> and easy to use.</h1>

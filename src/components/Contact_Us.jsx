@@ -5,7 +5,7 @@ import { MdEmail } from 'react-icons/md'
 function Contact_Us() {
   return (
      <div className=' max-w-7xl mx-auto'>
-        <div className=' h-full md:h-72 px-5 md:px-[13%]'>
+        <div className=' h-full md:h-72 px-2 md:px-5 lg:px-[13%]'>
                 <div className=' border my-10 h-60 rounded-3xl'>
                 <h1 className=' text-lg md:text-3xl font-semibold text-white text-center mt-8'>Subscribe Now</h1>
                 <p className=' text-[13px] md:text-[16px] text-[#8C8C8C] text-center my-5 px-3'>Stay up-to-date on discounts, offers and events. Unsubscribe at any time.</p>

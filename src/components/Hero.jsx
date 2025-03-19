@@ -3,24 +3,26 @@ import React from 'react'
 
 function hero() {
   return (
-    <div className=' max-w-7xl mx-auto'>
-      <div className=' grid md:grid-cols-2 h-full md:h-[645px] mt-10 lg:mt-0  items-center px-2 lg:px-6 lg:overflow-hidden '>
+    <div className=' max-w-7xl mx-auto '>
+      <div className=' grid md:grid-cols-2 h-full md:h-[645px] mt-10 lg:mt-0  items-center px-2 md:px-5 lg:px-6 lg:overflow-hidden pt-24 md:pt-0 lg:pt-24'>
       <div className=' '>
-        <h1 className=' text-3xl md:text-6xl font-semibold leading-10 md:leading-20 text-white px-2 md:px-0 text-center md:text-left'>Explore The Largest <span className=' bg-gradient-to-t from-[#522580] to-[#AD4769] text-transparent bg-clip-text'>NFT</span> Marketplaces</h1>
+        <h1 className=' text-3xl md:text-6xl font-semibold leading-10 md:leading-20 text-white md:px-0 text-center md:text-left'><span>Explore The Largest</span> <span className=' bg-gradient-to-t from-[#522580] to-[#AD4769] text-transparent bg-clip-text'>NFT</span> <span>Marketplaces</span></h1>
         <p className=' text-[12px] md:text-2xl leading-8 text-[#A5A3A8] text-center md:text-left mt-5 md:mt-0'>Buy, Sell & Trade Cryptocurrency Easily and Securely</p>
         
-        <div className=' flex gap-4 mt-6  justify-center items-center md:justify-start md:items-start'>
-          <div>
+        <div className=' block md:flex gap-4 mt-6  justify-center items-center md:justify-start md:items-start'>
+          <div className=' pb-3   flex justify-center '>
           <button className='bg-[#351A88] rounded-none w-48 text-2xl h-12 text-white shadow-2xs'>Contract Wallet</button>
           </div>
           
-          <div className=' h-12 w-48 rounded-none bg-gradient-to-r from-[#E38499] to-[#436DD6] p-0.5'>
-            <div className=' h-full w-full bg-[#161730] '>
-              <h1 className=' text-white text-2xl text-center items-center py-2'>Learn More</h1>
+         <div className='flex justify-center text-center items-center'>
+         <div className=' h-12 w-48 rounded-none bg-gradient-to-r from-[#E38499] to-[#436DD6] p-0.5  '>
+            <div className=' h-full w-full bg-[#161730]   '>
+              <h1 className=' text-white text-2xl text-center items-center py-2  '>Learn More</h1>
             </div>
           </div>
+         </div>
         </div>
-        <div className=' flex gap-5 items-center mt-11 gap-14'>
+        <div className=' flex justify-between  mt-11 '>
           <div>
             <h3 className='text-2xl md:text-3xl text-white'> Our Members</h3>
           </div>

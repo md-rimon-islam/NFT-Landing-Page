@@ -94,11 +94,11 @@ const ReviewCard = ({ img, name, price, profit }) => {
 
 function Shop() {
     return (
-        <div className=' max-w-7xl mx-auto'>
-            <div className=' text-center  md:mt-96  mb-32'>
-            <h1 className=' text-2xl md:text-6xl font-medium text-white'>Use Money in your wallet</h1>
-            <p className=' text-[10px] md:text-xl text-[#A5A3A8] mt-8 md:px-[15%] lg:px-[30%]'>Cryptocurrency is a digital form of currency that utilizes cryptography to secure transactions, control the creation of new units, and verify the transfer of assets.</p>
-            <div className=' mt-10 px-6 lg:px-6'>
+        <div className=' max-w-7xl mx-auto -mt-20 md:-mt-0 '>
+            <div className=' text-center  md:mt-96 mb-10 md:mb-32'>
+            <h1 className=' text-2xl md:text-6xl font-medium text-white px-2 md:px-5'>Use Money in your wallet</h1>
+            <p className=' text-[10px] md:text-xl text-[#A5A3A8] mt-8 md:px-[15%] lg:px-[30%] '>Cryptocurrency is a digital form of currency that utilizes cryptography to secure transactions, control the creation of new units, and verify the transfer of assets.</p>
+            <div className=' mt-10 px-2  md:px-5 lg:px-6'>
                 <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
                     <Marquee pauseOnHover className="[--duration:20s] my-6">
                         {firstRow.map((review) => (
